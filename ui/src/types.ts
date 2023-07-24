@@ -1,6 +1,7 @@
 export interface CarT {
   id: number;
   make: string | undefined | null;
+  make_img_url: string | undefined;
   model: string | undefined | null;
   year: number;
 }
